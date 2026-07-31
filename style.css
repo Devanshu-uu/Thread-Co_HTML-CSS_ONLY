@@ -278,9 +278,10 @@ main {
 
 .right-hero img {
     z-index: -2;
-    
+
 
 }
+
 .right-hero img:hover {
     size-adjust: 10px;
 }
@@ -328,6 +329,8 @@ main {
 #week-drop {
     background-color: #0C0D14;
     padding: 80px 60px;
+        /* border-radius: var(--radius-sm); */
+
 }
 
 #week-drop h2 {
@@ -345,6 +348,7 @@ main {
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 40px;
+    
 
 }
 
@@ -361,44 +365,46 @@ figure {
     display: flex;
     flex-direction: column;
     aspect-ratio: 3/4;
-   
 
-    
-    
+
+
+
 }
 
-figure img{
+figure img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: var(--radius-lg);
 }
-figcaption{
+
+figcaption {
     display: none;
 }
 
 
-.cards h3{
+.cards h3 {
     padding: 15px 20px 0px;
     font-size: 1.01rem;
 }
 
-figure p:first-of-type{
-    padding: 0px 20px ;
+figure p:first-of-type {
+    padding: 0px 20px;
     font-family: var(--font-body);
     font-size: .85rem;
 }
-span{
+
+span {
     color: var(--color-primary);
     font-weight: 700;
 }
 
-article p:nth-of-type(2){
+article p:nth-of-type(2) {
     padding: 20px 20px;
     font-family: var(--font-body);
 }
 
-article p:last-of-type mark{
+article p:last-of-type mark {
     position: absolute;
     padding: 6px 15px;
     border-radius: var(--radius-lg);
@@ -408,16 +414,12 @@ article p:last-of-type mark{
     font-family: var(--font-display);
     font-weight: 600;
     color: var(--white)
-
-
-    
-
 }
 
-article a{
+article a {
     color: var(--color-accent);
     padding: 6px 20px;
-    font-family :var(--font-display);
+    font-family: var(--font-display);
     text-transform: uppercase;
     letter-spacing: 0.1em;
     text-decoration: underline;
@@ -427,20 +429,20 @@ article a{
 
 }
 
-article a:hover{
+article a:hover {
     color: var(--color-secondary);
-    
+
 }
 
 
 
 
-article p strong{
+article p strong {
     font-family: var(--font-display);
-    
+
 }
 
-article button{
+article button {
     /* height: 40px;
     width: 330px; */
     display: inline-block;
@@ -452,14 +454,88 @@ article button{
     font-weight: 600;
     padding: 10px 20px;
 }
-article:hover{
+
+article:hover {
     border: 1px solid var(--color-primary);
-    box-shadow: 0 10px 10px var(--color-primary-glow);;
-    
+    box-shadow: 0 10px 10px var(--color-primary-glow);
+    ;
+
 
 }
-article button:hover{
+
+article button:hover {
     background: var(--color-primary);
     color: var(--white);
     cursor: pointer;
 }
+
+#best-seller {
+    padding: 80px 40px;
+
+
+}
+
+#best-seller h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#best-seller table {
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--radius-md);
+    border-collapse: collapse;
+
+
+}
+
+th[colspan="5"] {
+    background: var(--gradient-accent);
+    padding: 14px 20px;
+    font-family: var(--font-display);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+
+}
+
+th {
+    padding: 14px 20px;
+    text-align: left;
+    background-color: var(--color-bg-footer);
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    letter-spacing: 0.1em;
+    font-size: 0.9rem;
+
+
+}
+
+td {
+    padding: 14px 20px;
+    font-family: var(--font-body);
+    background-color: var(--color-bg-section);
+    color: var(--color-text-body);
+    border-top: 1px solid var(--color-border);
+
+
+
+}
+
+tr:hover td{
+    background-color: var(--color-bg-footer);
+
+
+}
+
+tr:hover td:first-child{
+    color: var(--color-secondary);
+}
+tr:hover td:last-child{
+    color: rgb(246, 211, 121);
+}
+
