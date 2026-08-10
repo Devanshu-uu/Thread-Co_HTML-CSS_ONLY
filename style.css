@@ -743,3 +743,62 @@ tr:hover>td {
 #footer p a:hover {
     color: var(--color-secondary);
 }
+
+/* product.html code */
+
+#catalogue {
+    padding: 100px 50px;
+}
+
+#catalogue h2 {
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 4.5rem;
+}
+
+#catalogue p {
+    font-weight: 200;
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+}
+
+#catalogue p:first-of-type {
+    padding-top: 10px;
+}
+
+#product-layout{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    background-color: var(--color-bg-section);
+    padding: 0 55px;
+    gap: 30px;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(260px ,1fr));
+    gap: 20px;
+}
+
+#sidebar{
+    background-color: var(--color-surface);
+    border-radius: var(--radius-md);
+    position: sticky;
+    top: 100px;
+    height: auto;
+    padding: 10px;
+}
+#sidebar h2{
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-size: 0.8rem;
+    letter-spacing: .2rem;
+    padding-bottom: 10px;
+    text-underline-offset: 10px;
+}
+#sidebar hr{
+    opacity: 0.1;
+    height: 0.1px;
+
+}
