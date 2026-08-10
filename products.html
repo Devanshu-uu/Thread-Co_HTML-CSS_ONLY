@@ -5,14 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ThreadCo - The Catalogue</title>
-    <style>
-        table,
-        td,
-        tr th {
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -40,13 +34,14 @@
 
     <main>
 
-        <section>
+        <section id="catalogue">
             <h2>The Catalogue</h2>
             <p>Fresh frops, every Friday. <strong>Limited stocks. No restocks.</strong> Ever.</p>
             <p> Showing <strong>8 products</strong></p>
         </section>
 
-        <section>
+        <div id="product-layout">
+            <section id="sidebar">
             <h2>
                 Filter By
             </h2>
@@ -81,7 +76,7 @@
         </section>
 
 
-        <section>
+        <section id="products">
             <h2>All Products
             </h2>
 
@@ -204,8 +199,11 @@
 
             </article>
         </section>
+        </div>
 
-        <section>
+        
+
+        <section id="bestsellers">
 
             <h2>Compare Our Bestsellers</h2>
             <p>Not sure which to pick? Here is a side-by-side breakdown.</p>
@@ -271,21 +269,26 @@
 
     </main>
 
-    <footer>
-        <p> &copy; 2025 ThreadCo. All rights reserved.</p>
+    <footer id="footer">
+        <h3>&copy; 2025 ThreadCo. All rights reserved.</h3>
         <p><em>Wear the Code. Live the Street.</em></p>
-
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Product</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
             </ul>
         </nav>
-        <a href="">Instagram</a> | <a href="">Twitter</a> | <a href="">Youtube</a>
 
+        <p>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            &nbsp;|&nbsp;
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            &nbsp;|&nbsp;
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+        </p>
     </footer>
 
 
