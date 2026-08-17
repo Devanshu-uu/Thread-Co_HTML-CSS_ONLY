@@ -905,17 +905,18 @@ tr:hover>td {
 
 .compare-best-sellers p {
     font-size: 1rem;
-    font-family:var(--font-body);
+    font-family: var(--font-body);
     margin-bottom: 10px;
 }
 
-.compare-best-sellers table tr:first-child th{
+.compare-best-sellers table tr:first-child th {
     background-color: black;
     text-align: center;
-     color: var(--white);
+    color: var(--white);
 }
 
-.compare-best-sellers table tr th ,.compare-best-sellers table tr td {
+.compare-best-sellers table tr th,
+.compare-best-sellers table tr td {
     border: none;
     /* border-collapse: collapse; */
 }
@@ -928,6 +929,125 @@ tr:hover>td {
     color: var(--color-accent);
 }
 
-.compare-best-sellers table tr  {
+.compare-best-sellers table tr {
     border: 1px solid var(--color-border);
+}
+
+
+/* contact.html  */
+
+#get-in-touch {
+    padding: 90px 40px 60px;
+}
+
+#get-in-touch h2 {
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    font-size: 4.6rem;
+    margin-top: 50px;
+
+}
+
+#get-in-touch p {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    padding-top: 15px;
+
+}
+
+#form-part {
+    display: flex;
+    background-color: var(--color-bg-section);
+    justify-content: space-between;
+    gap: 65px;
+    position: relative;
+    padding: 100px 70px;
+    align-items: start;
+
+
+}
+
+#sendus {
+    flex: 1;
+
+}
+
+#details {
+
+    flex: 0 0 360px;
+    text-align: center;
+    padding: 30px;
+    position: sticky;
+    top: 100px;
+    height: 200px;
+}
+
+#sendus h2 {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+#sendus form fieldset {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    color: white;
+    padding: 23px 30px 55px  ;
+    margin-top: 20px;
+
+}
+
+
+#sendus form legend {
+    color: var(--color-primary);
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+}
+
+#sendus hr {
+    display: none;
+}
+
+#sendus label {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-family: var(--font-display);
+    display: block;
+    padding: 30px 0 8px;
+
+}
+
+#sendus input[type="email"],
+#sendus input[type="text"],
+#sendus input[type="tel"] ,
+
+#sendus select
+
+{
+    width: 100%;
+    font-size: .9rem;
+    padding: 15px 10px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    outline: none;
+    background-color: var(--color-bg-section);
+    color: var(--white);
+}
+
+#sendus textarea{
+    width: 100%;
+    height: 120px;
+
+}
+
+#sendus small{
+    font-size: 0.9rem;
+    padding-top: 10px;
+}
+
+#sendus input:focus{
+    border: 1px solid var(--color-primary);
 }
