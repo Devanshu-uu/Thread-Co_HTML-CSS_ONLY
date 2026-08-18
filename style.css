@@ -992,7 +992,7 @@ tr:hover>td {
     border: 1px solid var(--color-border);
     border-radius: var(--radius-lg);
     color: white;
-    padding: 23px 30px 55px  ;
+    padding: 23px 30px 45px  ;
     margin-top: 20px;
 
 }
@@ -1028,7 +1028,7 @@ tr:hover>td {
 
 {
     width: 100%;
-    font-size: .9rem;
+    font-size: 1rem;
     padding: 15px 10px;
     border: 1px solid var(--color-border);
     border-radius: var(--radius-sm);
@@ -1036,18 +1036,125 @@ tr:hover>td {
     background-color: var(--color-bg-section);
     color: var(--white);
 }
+#sendus input[type="email"]::placeholder,
+#sendus input[type="text"]::placeholder,
+#sendus input[type="tel"]::placeholder ,
+
+#sendus select::placeholder
+
+{
+    font-family: var(--font-body);
+   
+}
 
 #sendus textarea{
     width: 100%;
     height: 120px;
+     font-size: .9rem;
+    padding: 15px 10px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    outline: none;
+    background-color: var(--color-bg-section);
+    color: var(--white);
+
+
+}
+#sendus textarea::placeholder{
+    font-family: var(--font-body);
+
 
 }
 
 #sendus small{
     font-size: 0.9rem;
-    padding-top: 10px;
+    display: inline-block;
+    padding-top: 6px;
 }
 
 #sendus input:focus{
     border: 1px solid var(--color-primary);
 }
+#yourmess small{
+    display: block;
+}
+
+
+#yourmess input[type="checkbox"]{
+
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    accent-color: var(--color-primary);
+}
+
+#checkbox{
+    display: inline-block;
+    color: var(--color-text-muted);
+    font-weight: 500;
+   
+    
+}
+#checkbox a{
+    color: var(--color-accent);
+   
+    
+}
+
+#agree{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#agree label{
+    padding: 0;
+    font-family: var(--font-display);
+    text-transform: capitalize;
+
+}
+
+#sendus button:first-of-type{
+     background: var(--gradient-accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+
+
+
+
+#sendus button:first-of-type:hover{
+    /* background-color: var(--color-primary); */
+    box-shadow: 0 8px 20px rgba(223, 71, 190, 0.506);
+    background: linear-gradient(135deg, #a54ef7 0%, #f2459b 100%);
+}
+
+#sendus button:last-of-type{
+    border: 2px solid rgba(104, 104, 104, 0.926);
+    background-color: transparent;
+}
+
+#sendus button:last-of-type:hover{
+    background-color: rgba(255, 255, 255, 0.07);
+    border-color: var(--white);
+}
+
+
+#sendus button{
+      padding: 15px 30px;
+    border-radius: var(--radius-sm);
+    text-transform: uppercase;
+    font-family: var(--font-display);
+    font-weight: 700px;
+    color: var(--white);
+}
+#contact-cta{
+     display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+

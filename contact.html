@@ -59,7 +59,7 @@
 
                 <br>
 
-                <fieldset>
+                <fieldset id="yourmess">
                     <legend>Your Message</legend>
 
                     <label for="subject">Subject:</label>
@@ -83,19 +83,21 @@
                     <input type="file" id="attachment" name="attachment">
                     
                     <small>Max file size: 5MB. Accepted: JPG, PNG, PDF</small>
-                    
 
+                    <div id="agree">
                     <input type="checkbox" id="consent" name="consent" required>
-                    <label for="consent">
+                    <label for="consent" id="checkbox">
                         I agree to be contacted by ThreadCo regarding my enquiry.
                         I have read the <a href="#">Privacy Policy</a>.
                     </label>
+                    </div>
                 </fieldset>
 
                 <br>
-
+                <div id="contact-cta">
                 <button type="submit">Send Message</button>
                 <button type="reset">Clear Form</button>
+                </div>
 
             </form>
         </section>
