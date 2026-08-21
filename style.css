@@ -1279,7 +1279,7 @@ tr:hover>td {
     letter-spacing: .2px;
 }
 #common{
-    padding: 40px 20px;
+    padding: 40px 40px 100px;
     color: var(--white);
 }
 #common h2{
@@ -1295,6 +1295,7 @@ tr:hover>td {
     font-family: var(--font-body);
     font-weight: 500;
     
+    
 }
 #common details[open]{
     color: var(--color-primary);
@@ -1305,6 +1306,8 @@ tr:hover>td {
 #common details p{
     margin-top: 35px;
     color: var(--color-text-muted);
+    width: 100%;
+    max-width: 1200px;
 }
 #common details:first-of-type{
     border-top: 2px solid var(--color-border);
@@ -1318,6 +1321,7 @@ tr:hover>td {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }    
 #common details summary::after {
