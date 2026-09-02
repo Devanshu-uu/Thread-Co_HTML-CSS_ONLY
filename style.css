@@ -1572,6 +1572,24 @@ tr:hover>td {
 
    
 }
+
+#size-guide{
+    background-color: var(--color-bg-section);
+    padding: 50px 35px;
+}
+#size-guide h2{
+    text-transform: uppercase;
+    margin: 20px 0;
+
+    
+}
+#size-guide p{
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+
+    
+}
+
     
 
 
