@@ -1606,7 +1606,11 @@ tr:hover>td {
 
 #size-guide {
     background-color: var(--color-bg-section);
-    padding: 50px 35px;
+    padding: 0 35px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-top: 130px;
+    margin-bottom: 20px;
 }
 
 #size-guide h2 {
@@ -1638,23 +1642,23 @@ tr:hover>td {
 
 
 
+
 #size-guide table {
     width: 100%;
     border-collapse: collapse;
     border: none;
-    
-
-
-
+    box-shadow: var(--shadow-md)
 }
 
 
-#size-guide table,
-th,
-td {
+#size-guide table th,
+td,
+tr {
 
     border: none;
-        background-color: var(--color-surface);
+    background-color: var(--color-surface);
+    border-collapse: collapse;
+    outline: none;
 
 
 
@@ -1665,6 +1669,11 @@ td {
 tr {
 
     border: 1px solid var(--color-border);
+    border-collapse: collapse;
+    height: 55px;
+
+
+
 
 
 
@@ -1680,6 +1689,7 @@ tr {
 
 
 }
+
 #size-guide table tr:nth-of-type(2) th {
     color: var(--white);
     font-family: var(--font-display);
@@ -1688,3 +1698,123 @@ tr {
 
 
 }
+
+#size-guide table tr:hover {
+    background-color: var(--color-bg-section);
+
+
+
+}
+
+#product-info {
+    color: var(--white);
+    padding: 80px 30px;
+}
+
+#product-info div {
+    display: flex;
+    justify-content: space-;
+    border-top: 1px solid var(--color-border);
+    width: 100%;
+    max-width: 600px;
+    padding-top: 15px;
+    padding-bottom: 23px;
+    align-items: center;
+
+}
+
+#product-info dl div dt {
+    flex: 1;
+    color: var(--color-text-muted);
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+
+
+}
+
+#product-info dl div dd {
+    flex: 1;
+    color: var(--white);
+    font-family: var(--font-body);
+    font-weight: 400;
+    
+    font-size: 1rem;
+
+
+}
+
+#product-info h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#customer-reviews{
+    padding: 60px 45px;
+    background-color: var(--color-bg-section);
+
+}
+#customer-reviews div{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+
+}
+#customer-reviews div article{
+    
+    flex: 1;
+    background-color: var(--color-bg-footer);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    transform: none;
+    padding: 0 30px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    background-color: var(--color-surface );
+
+}
+#customer-reviews div article p:first-of-type{
+    
+    color: rgb(255, 166, 0);
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+#customer-reviews div article h3{
+    
+    margin-bottom: 5px;
+}
+#big{
+    
+    font-size: 1.14rem;
+}
+#customer-reviews div article:hover{
+    box-shadow: none;
+
+}
+#customer-reviews h2{
+text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#customer-reviews p:first-of-type span{
+    color: var(--white);
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: var(--font-body);
+    margin: 10px;
+    display: inline-block;
+}
+#customer-reviews p:last-of-type{
+    
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: var(--font-body);
+}
+#customer-reviews small{
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    
+   
+}
+
+
