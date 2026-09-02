@@ -1784,6 +1784,7 @@ tr {
     
     margin-bottom: 5px;
 }
+
 #big{
     
     font-size: 1.14rem;
@@ -1817,4 +1818,14 @@ text-transform: uppercase;
    
 }
 
+
+#marks article p mark{
+    font-family: var(--font-display);
+    border-radius: var(--radius-lg);
+    padding: 5px 11px;
+    background: var(--gradient-accent);
+    color: var(--white);
+    font-weight: 600;
+
+}
 
