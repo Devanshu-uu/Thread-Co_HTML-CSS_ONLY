@@ -981,11 +981,11 @@ tr:hover>td {
     gap: 60px; */
 
     flex: 0 0 360px;
-    
+
     /* padding: 0 30px 30px ; */
     position: sticky;
     top: 90px;
-    
+
 }
 
 #sendus h2,
@@ -1158,7 +1158,7 @@ tr:hover>td {
     font-family: var(--font-display);
     font-weight: 700px;
     color: var(--white);
-    
+
 }
 
 #contact-cta {
@@ -1181,11 +1181,11 @@ tr:hover>td {
     border-left: 4px solid var(--color-primary);
     border-radius: var(--radius-md);
     background-color: var(--color-surface);
-    padding: 20px 20px 50px; 
-    
-    
-    
-} 
+    padding: 20px 20px 50px;
+
+
+
+}
 
 #details address strong {
     font-family: var(--font-display);
@@ -1201,7 +1201,7 @@ tr:hover>td {
     color: var(--color-text-muted);
     font-style: normal;
     font-family: var(--font-display);
-    padding-top: 20px ;
+    padding-top: 20px;
 
 
 
@@ -1214,23 +1214,25 @@ tr:hover>td {
     font-style: normal;
 
 }
+
 #details address a:hover {
     color: var(--color-secondary);
-    
+
 
 }
 
-#store-hours h3{
+#store-hours h3 {
     color: var(--color-text-muted);
     font-family: var(--font-display);
     text-transform: uppercase;
     font-size: .9rem;
     letter-spacing: .1em;
     padding-bottom: 10px;
-    
-    
+
+
 }
-#follow-us h3{
+
+#follow-us h3 {
     color: var(--color-text-muted);
     font-family: var(--font-display);
     text-transform: uppercase;
@@ -1238,11 +1240,11 @@ tr:hover>td {
     letter-spacing: 2px;
     padding-bottom: 10px;
 
-    
-    
+
+
 }
 
-#store-hours table{
+#store-hours table {
     outline: none;
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
@@ -1251,120 +1253,134 @@ tr:hover>td {
     margin-bottom: 100px;
 }
 
-#follow-us ul{
+#follow-us ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
-  
-    
+
+
 }
 
-#follow-us li{
+#follow-us li {
     border: 1px solid var(--color-border);
     border-radius: var(--radius-sm);
     padding: 15px 0px;
     padding-left: 15px;
     background-color: var(--color-surface);
 }
-#follow-us li:hover{
+
+#follow-us li:hover {
     border: 1px solid var(--color-primary);
     color: var(--white);
 }
-#follow-us li:hover a{
-    
+
+#follow-us li:hover a {
+
     color: var(--white);
 }
-#follow-us li a{
+
+#follow-us li a {
     font-family: var(--font-display);
     font-style: normal;
     letter-spacing: .2px;
 }
-#common{
+
+#common {
     padding: 40px 40px 100px;
     color: var(--white);
 }
-#common h2{
+
+#common h2 {
     text-transform: uppercase;
     padding: 15px 0;
 }
-#common p{
+
+#common p {
     font-family: var(--font-body);
 }
-#common details{
+
+#common details {
     border-bottom: 2px solid var(--color-border);
     padding: 40px 0;
     font-family: var(--font-body);
     font-weight: 500;
-    
-    
-}
-#common details[open]{
-    color: var(--color-primary);
-    
-    
+
+
 }
 
-#common details p{
+#common details[open] {
+    color: var(--color-primary);
+
+
+}
+
+#common details p {
     margin-top: 35px;
     color: var(--color-text-muted);
     width: 100%;
     max-width: 1200px;
 }
-#common details:first-of-type{
+
+#common details:first-of-type {
     border-top: 2px solid var(--color-border);
-    
+
 }
-#common details summary{
+
+#common details summary {
     list-style: none;
-    
-}    
-#common details summary{
+
+}
+
+#common details summary {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-}    
+}
+
 #common details summary::after {
     content: "+";
     font-size: 1.5rem;
-    transition: all .2s linear ;
-  
-}  
+    transition: all .2s linear;
 
-#common details[open] summary::after{
+}
+
+#common details[open] summary::after {
     transform: rotate(45deg);
     color: var(--color-secondary);
-    
+
 }
 
 /* product.html */
 
-#product-main{
+#product-main {
     padding-left: 10px;
 }
+
 #product-main nav {
     padding: 20px 30px;
     background-color: var(--color-bg-section);
     font-family: var(--font-body);
     color: var(--color-text-muted);
     font-size: 0.86rem;
-    
+
 
 
 }
 
 
 
-#product-main nav a{
+#product-main nav a {
     color: var(--color-primary);
 }
-#product-main nav a:hover{
+
+#product-main nav a:hover {
     color: var(--color-secondary);
 }
 
 
-#product-main section:first-of-type{
+#product-main section:first-of-type {
     padding: 30px 10px;
     display: flex;
     gap: 25px;
@@ -1373,47 +1389,50 @@ tr:hover>td {
     flex-wrap: wrap;
     justify-content: center;
     margin: 25px 0;
-   
-    
 
-    
+
+
+
 
 }
-#product-main section:first-of-type figure{
-    flex: 0 0 50% ;
+
+#product-main section:first-of-type figure {
+    flex: 0 0 50%;
 }
-#product-main section:first-of-type div{
-    flex: 1 ;
+
+#product-main section:first-of-type div {
+    flex: 1;
     padding: 0 20px;
 }
-    
 
 
-#product-main section:first-of-type div h2{
+
+#product-main section:first-of-type div h2 {
     font-family: var(--font-display);
     text-transform: uppercase;
 
 
 
 }
-#product-main section:first-of-type div p{
+
+#product-main section:first-of-type div p {
     font-family: var(--font-body);
-    padding-top: 20px ;
-    
-    
+    padding-top: 20px;
+
+
 
 
 }
 
-#product-main section:first-of-type div p:nth-of-type(2) strong{
+#product-main section:first-of-type div p:nth-of-type(2) strong {
     font-family: var(--font-display);
     font-size: 2.3rem;
     font-weight: 1300;
-   
+
 
 }
 
-#product-main section:first-of-type div p:nth-of-type(2) s{
+#product-main section:first-of-type div p:nth-of-type(2) s {
     font-family: var(--font-body);
     font-size: 1.4rem;
     font-weight: 1300;
@@ -1421,7 +1440,8 @@ tr:hover>td {
 
 
 }
-#product-main section:first-of-type div p:nth-of-type(2) mark{
+
+#product-main section:first-of-type div p:nth-of-type(2) mark {
     font-family: var(--font-display);
     border-radius: var(--radius-lg);
     padding: 5px 11px;
@@ -1430,11 +1450,13 @@ tr:hover>td {
     font-weight: 600;
 
 }
-#product-main section:first-of-type div  small{
+
+#product-main section:first-of-type div small {
     font-family: var(--font-display);
     padding: 20px 0;
 }
-#product-main section:first-of-type div  p:nth-of-type(3) label{
+
+#product-main section:first-of-type div p:nth-of-type(3) label {
     font-family: var(--font-display);
     text-transform: uppercase;
     color: var(--white);
@@ -1443,14 +1465,15 @@ tr:hover>td {
 
     display: block;
     margin-top: 20px;
-    
+
 
 }
-#product-main section:first-of-type div  p:nth-of-type(3) select{
+
+#product-main section:first-of-type div p:nth-of-type(3) select {
     display: inline-block;
     margin: 10px 0;
     margin-right: 10px;
-    padding:12px 10px;
+    padding: 12px 10px;
     width: 250px;
     border-radius: var(--radius-sm);
     background-color: var(--color-bg-section);
@@ -1460,14 +1483,15 @@ tr:hover>td {
     border: 1px solid var(--color-border);
 
 }
-#product-main section:first-of-type div  p:nth-of-type(3) select:focus{
+
+#product-main section:first-of-type div p:nth-of-type(3) select:focus {
     border: 1px solid var(--color-primary);
-    
+
 
 }
-    
-#product-main section:first-of-type div  p:nth-of-type(4) label {
-     font-family: var(--font-display);
+
+#product-main section:first-of-type div p:nth-of-type(4) label {
+    font-family: var(--font-display);
     text-transform: uppercase;
     color: var(--white);
     font-size: .8rem;
@@ -1475,14 +1499,15 @@ tr:hover>td {
 
     display: block;
     margin-top: 20px;
-    
+
 
 }
-#product-main section:first-of-type div  p:nth-of-type(4) input {
-     display: inline-block;
+
+#product-main section:first-of-type div p:nth-of-type(4) input {
+    display: inline-block;
     margin: 10px 0;
     margin-right: 10px;
-    padding:12px 10px;
+    padding: 12px 10px;
     width: 250px;
     border-radius: var(--radius-sm);
     background-color: var(--color-bg-section);
@@ -1494,18 +1519,21 @@ tr:hover>td {
 
 
 }
-#product-main section:first-of-type div  p:nth-of-type(4) input:focus {
-        border: 1px solid var(--color-primary);
+
+#product-main section:first-of-type div p:nth-of-type(4) input:focus {
+    border: 1px solid var(--color-primary);
 
 
 
 }
-#product-main section:first-of-type div  p:nth-of-type(3) a{
+
+#product-main section:first-of-type div p:nth-of-type(3) a {
     color: var(--color-accent);
     text-decoration: underline;
-    
+
 }
-#product-main section:first-of-type div  ul {
+
+#product-main section:first-of-type div ul {
     border: 1px solid var(--color-border);
     display: block;
     color: var(--color-text-muted);
@@ -1516,26 +1544,27 @@ tr:hover>td {
     border-left: 3px solid var(--color-accent);
     font-size: .9rem;
     margin-top: 20px;
-    
-}
-#product-main section:first-of-type div  ul li{
-    padding: 6px 0;
-    font-weight: 500;
-    
+
 }
 
-#buttons{
+#product-main section:first-of-type div ul li {
+    padding: 6px 0;
+    font-weight: 500;
+
+}
+
+#buttons {
     display: flex;
     gap: 10px;
     margin: 20px 0;
-    
+
 
 }
 
-#buttons button:first-of-type{
+#buttons button:first-of-type {
     padding: 13px 25px;
     flex: 2;
-     background: var(--gradient-accent);
+    background: var(--gradient-accent);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1547,11 +1576,12 @@ tr:hover>td {
     font-size: 1rem;
 }
 
-#buttons button:first-of-type:hover{
+#buttons button:first-of-type:hover {
     background: linear-gradient(135deg, #a54ef7 0%, #e96dab 100%);
 
 }
-#buttons button:last-of-type{
+
+#buttons button:last-of-type {
     padding: 10px 50px;
     flex: 1;
     border: 2px solid rgb(253, 253, 253);
@@ -1563,47 +1593,98 @@ tr:hover>td {
     font-size: 1rem;
 
 }
-#buttons button:last-of-type:hover{
+
+#buttons button:last-of-type:hover {
     background-color: rgb(255, 255, 255);
     color: black;
-    font-weight: 600; 
+    font-weight: 600;
     font-family: var(--font-display);
     font-size: 1rem;
 
-   
+
 }
 
-#size-guide{
+#size-guide {
     background-color: var(--color-bg-section);
     padding: 50px 35px;
 }
-#size-guide h2{
+
+#size-guide h2 {
     text-transform: uppercase;
     margin: 20px 0;
 
-    
+
 }
-#size-guide p{
+
+#size-guide p {
     font-family: var(--font-display);
     font-size: 1.1rem;
 
-    
+
 }
 
+#size-guide table caption {
+    color: white;
+    margin-top: 1px;
+    margin-bottom: 16px;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+
+
+
+}
+
+
+
+
+#size-guide table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
     
 
 
 
+}
+
+
+#size-guide table,
+th,
+td {
+
+    border: none;
+        background-color: var(--color-surface);
 
 
 
 
+}
+
+#size-guide table,
+tr {
+
+    border: 1px solid var(--color-border);
+
+
+
+}
+
+
+#size-guide table tr:first-of-type th {
+    text-align: center;
+    background-color: var(--color-bg-base);
+    color: var(--white);
 
 
 
 
+}
+#size-guide table tr:nth-of-type(2) th {
+    color: var(--white);
+    font-family: var(--font-display);
 
 
 
 
-
+}
